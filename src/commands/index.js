@@ -3,6 +3,7 @@ const sendAvatar = require('./user/sendAvatar');
 const eightBall = require('./user/8ball');
 const ping = require('./info/ping');
 const purge = require('./admin/purge');
+const wiki = require('./game/wiki');
 
 const {
     ADMIN_ID,
@@ -14,6 +15,7 @@ const commands = {
     sendAvatar,
     ping,
     purge,
+    wiki,
     '8ball': eightBall,
 };
 
